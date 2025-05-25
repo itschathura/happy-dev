@@ -9,3 +9,10 @@ function add(a, b) {
 }
 
 console.log(add(5, 3)); // Output: 8
+
+
+function add(a) {
+  return a
+}
+
+console.log(add("hello"));
